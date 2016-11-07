@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-116107-15525-42832d/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-116107-15525-42832d/package.tgz",
+        "spec": "/tmp/d-116107-15525-42832d/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-116107-15525-1q4gfe2"
+    ]
+  ],
+  "_from": "../d-116107-15525-42832d/package.tgz",
+  "_id": "ionic-preview@0.6.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ionic-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-116107-15525-42832d/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-116107-15525-42832d/package.tgz",
+    "spec": "/tmp/d-116107-15525-42832d/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116107-15525-42832d/package.tgz",
+  "_shasum": "cce04b47ff6bd2cc7bc51b16e100903bfac83d50",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-116107-15525-42832d/package.tgz",
+  "_where": "/tmp/apm-install-dir-116107-15525-1q4gfe2",
+  "activationCommands": {
+    "atom-workspace": "ionic:preview"
+  },
+  "bugs": {
+    "url": "https://github.com/cabaag/ionic-preview/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5"
+  },
+  "description": "Show a preview of your ionic apps",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/cabaag/ionic-preview#readme",
+  "license": "MIT",
+  "main": "./lib/ionic",
+  "name": "ionic-preview",
+  "optionalDependencies": {},
+  "readme": "# Ionic Preview\n\nPreview a live version of your [Ionic](http://www.ionicframework.com) application\nin an atom pane.\n\n![A screenshot of your package](https://raw.githubusercontent.com/cabaag/ionic-preview/master/screenshot.png)\n\n# Getting start\n\nIn your terminal:\n'''\napm install ionic-preview\nionic serve\n'''\n\nThen hit `Cmd + Shift + P` in atom and use the command `Ionic: preview`\n\n(note: if you don't see `Ionic: Preview` in the list you may need to restart atom)\n\nThis will open a new pane with your app displayed in it.\n\nUse `ionic serve -b` to start the livereload service without opening your browser\n\n## TODO\n* Multiple views\n* Specs\n* Device orientation\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabaag/ionic-preview.git"
+  },
+  "version": "0.6.4"
+}
